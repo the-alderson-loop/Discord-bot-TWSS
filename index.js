@@ -4,7 +4,16 @@ require('dotenv').config();
 var twss = require('twss');
 
 
+async function(content){
+    try{
+        result=await twss.is(content);
+        return result;
+    }catch (error) {
+        console.log('Opsie');
+        
+      }
 
+}
 //create new client
 const client = new Discord.Client();
 
@@ -14,11 +23,13 @@ client.on("ready", ()=> {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
+as
+
 
 // Check messages for a specific command
 client.on("message", msg => {
     // Send back a reply when the specific command has been written
-    if (twss.is(msg.content)) {
+    if (isPossible(msg.content))) {
         msg.reply("That's what she said!");
     }
 
