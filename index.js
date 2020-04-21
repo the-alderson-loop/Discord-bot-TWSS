@@ -2,6 +2,8 @@
 const Discord = require("discord.js");
 var twss = require('twss');
 
+
+
 //create new client
 const client = new Discord.Client();
 
@@ -33,9 +35,8 @@ client.on("message", msg => {
 
 });
 
-
-
-
-
 //log in with token
 client.login(process.env.BOT_TOKEN);
+
+
+
