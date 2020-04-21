@@ -23,8 +23,6 @@ client.on("ready", ()=> {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
-as
-
 
 // Check messages for a specific command
 client.on("message", msg => {
