@@ -4,7 +4,7 @@ require('dotenv').config();
 var twss = require('twss');
 
 
-async function(content){
+async function isPossible(content){
     try{
         result=await twss.is(content);
         return result;
