@@ -32,7 +32,7 @@ client.on("message", msg => {
     }
 
     else if(msg.content === "!ms help"){
-        msg.reply("Ehh. You know, **wink wink**")
+        msg.reply("Ehh.You know, **wink wink**")
     }
     
     else if(msg.content === "!ms who"){
