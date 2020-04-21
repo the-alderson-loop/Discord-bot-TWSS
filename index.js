@@ -22,7 +22,7 @@ client.on("message", msg => {
         msg.reply("That's what she said!");
     }
 
-    else if(msg.content === "help"){
+    else if(msg.content === "!m help"){
         msg.reply("Ehh. You know, *wink wink*")
     }
     

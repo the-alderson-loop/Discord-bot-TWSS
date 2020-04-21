@@ -12,5 +12,15 @@
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "twss": "^0.1.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bat-fleck/Discod-bot-TWSS.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/bat-fleck/Discod-bot-TWSS/issues"
+  },
+  "homepage": "https://github.com/bat-fleck/Discod-bot-TWSS#readme"
 }
