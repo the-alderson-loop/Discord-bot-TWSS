@@ -27,7 +27,7 @@ client.on("ready", ()=> {
 // Check messages for a specific command
 client.on("message", msg => {
     // Send back a reply when the specific command has been written
-    if (isPossible(msg.content)) {
+    if (msg.content="scarn") {
         msg.reply("That's what she said!");
     }
 
