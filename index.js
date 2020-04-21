@@ -31,15 +31,11 @@ client.on("message", msg => {
         msg.reply("That's what she said!");
     }
 
-    else if(msg.content === "!m help"){
+    else if(msg.content === "!ms help"){
         msg.reply("Ehh. You know, *wink wink*")
     }
     
-    // else if(msg.content === "thank the maker"){
-    //     msg.reply("I WAS CREATED BY THE GREAT HARIKRISHNAN PS. HE IS AWESOME. ALL THANKS TO HIM")
-    // }
-    
-    else if(msg.content === "who are you?"){
+    else if(msg.content === "!ms who"){
         msg.reply("I go by many names, but I would prefer if you called me Michael Scarn.")
     }
 
