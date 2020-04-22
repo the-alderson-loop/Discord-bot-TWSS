@@ -2,7 +2,7 @@
 const Discord = require("discord.js");
 require('dotenv').config(); 
 var twss = require('twss');
-twss.threshold = 0.3;
+twss.threshold = 0.8;
 
 
 async function isPossible(content){
@@ -10,7 +10,7 @@ async function isPossible(content){
         result=await twss.is(content);
         return result;
     }catch (error) {
-        console.log('Opsie');
+        console.log('Oopsie');
         
       }
 
