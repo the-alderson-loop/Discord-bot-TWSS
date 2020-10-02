@@ -40,6 +40,18 @@ client.on("message", msg => {
         msg.reply("I go by many names, but I would prefer if you called me Michael Scarn.")
     }
 
+    else if(msg.content === "!ms i am toby"){
+        msg.reply("Why are you the way that you are?")
+    }
+
+    else if(msg.content === "!ms You really think you can go all day?"){
+        msg.reply("That's what she said")
+    }
+
+    else if(msg.content === "!ms who is dwight?"){
+        msg.reply("Assistant to the regional manager")
+    }
+
 });
 
 //log in with token
